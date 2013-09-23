@@ -16,7 +16,7 @@
 <body>
 
 <div class="page-header alert alert-success">
-  <h1><center>Share your voice For Rampal Power Plant : Click to start</center></h1>
+  <h1><center>Share your voice For  Rampal Power Plant : Click to start</center></h1>
 </div>
 
 <?php
@@ -105,7 +105,7 @@
 				'top':y
 			});
 			$('body').append(div);
-			$.post('http://27.147.179.137/whiteboard/add.php',{
+			$.post('http://greenmagz.info/whiteboard/add.php',{
 				'email':$('#email').val(),
 				'text':$('#thought').val(),
 				'x':x,
